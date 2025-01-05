@@ -1,0 +1,24 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px;
+    margin-bottom: auto;
+    text-align: center;
+  }
+
+body{
+  background-color: black;
+  color: white;
+  font: 1em sans-serif;
+}
+
+button {
+  
+  transition: transform .5s;
+  margin: 25px 50px 75px 100px;
+}
+button:hover {
+  transform: scale(1.25);
+}
